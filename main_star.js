@@ -88,7 +88,7 @@ scene.add(bg_star2);
 
 var planet = new THREE.Mesh( 
 	new THREE.SphereGeometry( 0.1, 32, 16 ), new THREE.MeshPhongMaterial({
-		map: loader.load("../textures/earth_map.jpg")
+		map: loader.load("textures/earth_map.jpg")
 	}) 
 );
 planet.position.set(2,0,0);
