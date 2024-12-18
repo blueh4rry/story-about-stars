@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>별에 대한 이야기</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
-</head>
-<body>
 	<script type="importmap">
-		{
-			"imports": {
-				"three": "../module/three/build/three.module.js"
-			}
+	  {
+		"imports": {
+		  "three": "https://cdn.jsdelivr.net/npm/three@v0.171.0/build/three.module.js",
+		  "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.171.0/examples/jsm/"
 		}
+	  }
 	</script>
-	<script src="https://threejs.org/build/three.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
-	<script type="module" src="main_star.js"></script>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>별에 대한 이야기</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+	<body>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+		<script type="module" src="main_star.js"></script>
+	</body>
 </html>
