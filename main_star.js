@@ -1,12 +1,12 @@
 import * as THREE from 'three';
-import { OrbitControls } from '../module/three/examples/jsm/controls/OrbitControls.js';
-import { EffectComposer } from '../module/three/examples/jsm/postprocessing/EffectComposer.js';
-import { RenderPass } from '../module/three/examples/jsm/postprocessing/RenderPass.js';
-import { UnrealBloomPass } from '../module/three/examples/jsm/postprocessing/UnrealBloomPass.js';
-import { FXAAShader } from '../module/three/examples/jsm/shaders/FXAAShader.js';
-import { ShaderPass } from '../module/three/examples/jsm/postprocessing/ShaderPass.js';
-import { FontLoader } from '../module/three/examples/jsm/loaders/FontLoader.js'
-import { TextGeometry } from '../module/three/examples/jsm/geometries/TextGeometry.js'
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { FXAAShader } from 'three/addons/shaders/FXAAShader.js';
+import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
+import { FontLoader } from 'three/addons/loaders/FontLoader.js'
+import { TextGeometry } from 'three/addons/geometries/TextGeometry.js'
 
 //#region Settings
 
